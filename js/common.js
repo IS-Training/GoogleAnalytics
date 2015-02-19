@@ -15,6 +15,20 @@ function writeHeader(){
     document.write(html);
 }
 
+function writeBodyHeader(){
+    var html = "";
+
+html +='<!-- HEADER -->';
+html +='<div id="header_wrap" class="outer">';
+html +='<header class="inner">';
+html +='<a id="forkme_banner" href="https://github.com/IS-Training/GoogleAnalytics">View on GitHub</a>';
+html +='<h1 id="project_title">Googleanalyticstraining.GitHub.io</h1>';
+html +='<h2 id="project_tagline">Googleアナリティクスの概念や使い方などを解説します</h2>';
+html +='</header>';
+html +='</div>';
+    document.write(html);
+}
+
 function writeFooter(){
     var html = "";
     html +="<!-- FOOTER  -->";
