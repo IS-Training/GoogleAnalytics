@@ -58,6 +58,18 @@
         </ul>
         <a href="./" onclick="ga('send', 'event', 'test', 'click', 'high_level', 1);">ここをクリックするとイベントが発生</a>
         <p>やりかた：http://websae.net/ga-event-tracking-20140407/</p>
+        <br/>
+        <p>ABテスト</p>
+        <SCRIPT language="JavaScript">
+        var num = Math.floor(Math.random()*(50-10)+10);
+        var num_html;
+        if (num % 2 == 0) {
+          num_html = "A"; // 偶数の処理
+        }else {
+          num_html = "B"; // 奇数の処理
+        }
+        document.write("<a href='./test"+num_html+".html'>ここをクリック</a>");
+        </script>
       </section>
     </div>
 <script type="text/javascript">writeFooter();</script>
