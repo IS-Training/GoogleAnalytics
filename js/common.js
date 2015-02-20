@@ -57,6 +57,11 @@ function writeFooter(){
     html +="<p>Published with <a href=\"http://pages.github.com\">GitHub Pages</a></p>";
     html +="</footer>";
     html +="</div>";
+    html +="<!--CLIKEY-->";
+    html +="<a title=\"Real Time Web Analytics\" href=\"http://clicky.com/100819187\"><img alt=\"Real Time Web Analytics\" src=\"//static.getclicky.com/media/links/badge.gif\" border=\"0\" /></a>";
+    html +="<script src=\"//static.getclicky.com/js\" type=\"text/javascript\"></script>";
+    html +="<script type=\"text/javascript\">try{ clicky.init(100819187); }catch(e){}</script>";
+    html +="<noscript><p><img alt=\"Clicky\" width=\"1\" height=\"1\" src=\"//in.getclicky.com/100819187ns.gif\" /></p></noscript>";
     html +="</body>";
     html +="</html>";
     document.write(html);
