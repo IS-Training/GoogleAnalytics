@@ -11,6 +11,8 @@ function writeHeader(){
     html +='m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)';
     html +='})(window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');';
     html +='ga(\'create\', \'UA-59913539-1\', \'auto\');';
+    html +='ga(\'require\', \'linkid\', \'linkid.js\');';
+    html +='ga(\'require\', \'displayfeatures\');';
     html +='ga(\'send\', \'pageview\');';
     html +='</script>';
     /*PTengine*/
