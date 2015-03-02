@@ -2,7 +2,12 @@ function writeHeader(){
     var html = "";
     html +='<meta http-equiv="X-UA-Compatible" content="chrome=1">';
     html +='<meta name="description" content="Googleanalyticstraining.GitHub.io : Googleアナリティクスの概念や使い方などを解説します">';
-    html +='<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">';
+    html +='<!-- Latest compiled and minified CSS -->';
+    html +='<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">';
+    html +='<!-- Optional theme -->';
+    html +='<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">';
+    html +='<!-- Latest compiled and minified JavaScript -->';
+    html +='<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>';
     html +='<title>GoogleAnalyticsTraining</title>';
     html +='<!--アナリティクス-->';
     html +='<script>';
