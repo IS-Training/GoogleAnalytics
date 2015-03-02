@@ -41,6 +41,28 @@ function writeHeader(){
 function writeBodyHeader(){
     var html = "";
 
+html +='<nav class="navbar navbar-inverse navbar-fixed-top">';
+html +='<div class="container">';
+html +='<div class="navbar-header">';
+html +='<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">';
+html +='<span class="sr-only">Toggle navigation</span>';
+html +='<span class="icon-bar"></span>';
+html +='<span class="icon-bar"></span>';
+html +='<span class="icon-bar"></span>';
+html +='</button>';
+html +='<a class="navbar-brand" href="#">Project name</a>';
+html +='</div>';
+html +='<div id="navbar" class="collapse navbar-collapse">';
+html +='<ul class="nav navbar-nav">';
+html +='<li class="active"><a href="#">Home</a></li>';
+html +='<li><a href="#about">About</a></li>';
+html +='<li><a href="#contact">Contact</a></li>';
+html +='</ul>';
+html +='</div><!--/.nav-collapse -->';
+html +='</div>';
+html +='</nav>';
+
+html +='<div class="container">';
 html +='<!-- HEADER -->';
 html +='<div id="header_wrap" class="outer">';
 html +='<header class="inner">';
@@ -62,6 +84,7 @@ function writeFooter(){
     html +="<p>Published with <a href=\"http://pages.github.com\">GitHub Pages</a></p>";
     html +="</footer>";
     html +="</div>";
+    html +="</div><!-- /.container -->";
     html +="</body>";
     html +="</html>";
     document.write(html);
