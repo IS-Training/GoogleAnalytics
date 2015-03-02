@@ -35,6 +35,7 @@ function writeHeader(){
     html +='s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);';
     html +='})();';
     html +='</script>';
+    html +='<style>body { padding-top: 70px; }</style>';
     document.write(html);
 }
 
@@ -50,13 +51,18 @@ html +='<span class="icon-bar"></span>';
 html +='<span class="icon-bar"></span>';
 html +='<span class="icon-bar"></span>';
 html +='</button>';
-html +='<a class="navbar-brand" href="#">Project name</a>';
+html +='<a class="navbar-brand" href="#">GoogleAnalyticsTraining</a>';
 html +='</div>';
 html +='<div id="navbar" class="collapse navbar-collapse">';
 html +='<ul class="nav navbar-nav">';
-html +='<li class="active"><a href="#">Home</a></li>';
-html +='<li><a href="#about">About</a></li>';
-html +='<li><a href="#contact">Contact</a></li>';
+html +='<li class="active"><a href="./index.html">Home</a></li>';
+html +='<li><a href="./introduction.html">About</a></li>';
+html +='<li><a href="./terminology.html">term</a></li>';
+html +='<li><a href="./basic-tutorial.html">basic</a></li>';
+html +='<li><a href="./high-level-tutorial.html">advanced</a></li>';
+html +='<li><a href="./QandA.html>QandA</a></li>';
+html +='<li><a href="./test.html">test</a></li>';
+html +='<li><a href="./reference.html">reference</a></li>';
 html +='</ul>';
 html +='</div><!--/.nav-collapse -->';
 html +='</div>';
@@ -65,11 +71,7 @@ html +='</nav>';
 html +='<div class="container">';
 html +='<!-- HEADER -->';
 html +='<div id="header_wrap" class="outer">';
-html +='<header class="inner">';
 html +='<a id="forkme_banner" href="https://github.com/IS-Training/GoogleAnalytics">View on GitHub</a>';
-html +='<h1 id="project_title">GoogleAnalyticsTraining</h1>';
-html +='<h2 id="project_tagline">Googleアナリティクスの概念や使い方などを解説します</h2>';
-html +='</header>';
 html +='</div>';
     document.write(html);
 }
@@ -78,11 +80,9 @@ function writeFooter(){
     var html = "";
     html +="<!-- FOOTER  -->";
     html +="<div id=\"footer_wrap\" class=\"outer\">";
-    html +="<footer class=\"inner\">";
     html +="<ul><li><a href =\"./index.html\">Top</li></ul>";
     html +="<p class=\"copyright\">Googleanalyticstraining.GitHub.io maintained by <a href=\"https://github.com/IS-Training\">IS-Training</a></p>";
     html +="<p>Published with <a href=\"http://pages.github.com\">GitHub Pages</a></p>";
-    html +="</footer>";
     html +="</div>";
     html +="</div><!-- /.container -->";
     html +="</body>";
