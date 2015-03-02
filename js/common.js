@@ -60,7 +60,7 @@ html +='<li><a href="./introduction.html">About</a></li>';
 html +='<li><a href="./terminology.html">term</a></li>';
 html +='<li><a href="./basic-tutorial.html">basic</a></li>';
 html +='<li><a href="./high-level-tutorial.html">advanced</a></li>';
-html +='<li><a href="./QandA.html>QandA</a></li>';
+html +='<li><a href="./QandA.html">QandA</a></li>';
 html +='<li><a href="./test.html">test</a></li>';
 html +='<li><a href="./reference.html">reference</a></li>';
 html +='</ul>';
@@ -69,10 +69,6 @@ html +='</div>';
 html +='</nav>';
 
 html +='<div class="container">';
-html +='<!-- HEADER -->';
-html +='<div id="header_wrap" class="outer">';
-html +='<a id="forkme_banner" href="https://github.com/IS-Training/GoogleAnalytics">View on GitHub</a>';
-html +='</div>';
     document.write(html);
 }
 
