@@ -74,12 +74,6 @@ html +='<div class="container">';
 
 function writeFooter(){
     var html = "";
-    html +="<!-- FOOTER  -->";
-    html +="<div id=\"footer_wrap\" class=\"outer\">";
-    html +="<ul><li><a href =\"./index.html\">Top</li></ul>";
-    html +="<p class=\"copyright\">Googleanalyticstraining.GitHub.io maintained by <a href=\"https://github.com/IS-Training\">IS-Training</a></p>";
-    html +="<p>Published with <a href=\"http://pages.github.com\">GitHub Pages</a></p>";
-    html +="</div>";
     html +="</div><!-- /.container -->";
     html +="</body>";
     html +="</html>";
